@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family:"Geneal Sans";
+}
+#circle{
+    position: absolute;
+    font-size: 0.8rem;
+    z-index: 99999;
+    color: #dedede;
+    background: transparent;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.main{
+    width: 100%;
+    background-color: #000000;
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+
+}
+.bounding .boundinglm{
+    transform: translateY(100%);
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.nav >a {
+    color: #fff;
+    padding: 20px 55px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "General Sans";
+}
+.second{
+    text-transform: uppercase;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.heading{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.heading h1{
+    color: #fff;
+    font-size: 9.9vw;
+    font-weight: 500;
+    opacity: .6;
+    font-family: "General Sans Medium";
+    line-height: 0.8;
+}
+.secondheading>h1{
+    width: 70%;
+    text-align: center;
+    
+}
+.secondheading h5{
+    color: #fff;
+    font-size: 1vw;
+    text-align: right;
+    font-family: "General Sans";
+}
+.bounding .h1{
+    margin-left: 150px;
+}
+.secondheading>h5{
+    width: 60%;
+    text-align: right;
+}
+.small-footer{
+    margin-top: 100px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding: 10px;
+    margin-right: 50px;
+    
+}
+.small-footer>a{
+    color: #fff;
+    font-size: 18px;
+    bottom: 8%;
+}
+.hero-footer{
+    bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 50px;
+}
+.hero-footer>a{
+    color: #fff;
+    font-size: 18px;
+}
+.icon-set{
+    display: flex;
+    gap: 6px;
+    margin-right: 40px;
+}
+.icon-set>.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(157, 152, 152);
+    text-align: center;
+    padding: 2px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.second-hero{
+    padding-top: 140px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.element{
+    width: 90%;
+    padding: 20px;
+    padding-left: 20px;
+}
+.plug{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid #888;
+}
+.plug> h1{
+    color: #fff;
+    display: flex;
+    font-family: "General Sans Medium";
+    font-size: 7.5vw;
+    font-weight: 600;
+    opacity: 70%;
+    padding: 20px;
+}
+.plug> h5{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.plug>img{
+    opacity: 0;
+    /* display: none; */
+    position: absolute;
+    height: 60%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.lets-talk{
+    background-color: #000000;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+    align-items: center;
+    gap: 5rem;
+}
+.about-me-img>img{
+    width: 16rem;
+}
+.about-me-para{
+    width: 550px;
+    color: #fff;
+    padding-right: 180px;
+    margin-top: 4rem;
+}
+.about-me-para p{
+    line-height: 1.4;
+    font-size: 1.5vw;
+}
+.about-me-para button{
+    border-radius: 15px;
+    background: transparent;
+    color: #fff;
+    padding: 5px;
+    width: 130px;
+    border: 1px solid white;
+    margin: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.lets-talk-footer{
+    padding-top: 50px;
+    width: 100%;
+    height: 25vh;
+    background-color: #000000;
+}
+.talk-container>h3{
+    color: #fff;
+    padding: 0.2rem;
+}
+.talk-container{
+    padding-left:3rem;
+}
+.hero-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    background-color: #000000;
+}
+.first-item{
+    display: flex;
+}
+.first-item p{
+    padding: 0.8rem;
+    color: #fff;
+}
+.last-item>a{
+    padding: 1.5rem;
+    color: #fff;
+}
